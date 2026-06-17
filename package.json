@@ -1,0 +1,24 @@
+{
+  "name": "github-monitor",
+  "version": "1.0.0",
+  "description": "Monitoring GitHub profiles, Repo's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Sahad/github-monitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dev-Sahad/github-monitor/issues"
+  },
+  "homepage": "https://github.com/Dev-Sahad/github-monitor#readme",
+  "dependencies": {
+    "axios": "^1.18.0"
+  }
+}
