@@ -1,12 +1,10 @@
 {
-      "javascript.validate.enable": true,
-        "typescript.validate.enable": true,
-          "search.exclude": {
-              "**/node_modules": true
-                },
-                  "files.exclude": {
-                      "**/node_modules": false
-                        }
-                        }
-
+  "javascript.validate.enable": true,
+  "typescript.validate.enable": true,
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/node_modules": true
+  }
 }
