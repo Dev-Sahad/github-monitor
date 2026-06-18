@@ -2,8 +2,8 @@ name: Automated GitHub Monitor
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs automatically at the top of every single hour
-  workflow_dispatch: # Allows manual trigger execution via GitHub UI
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   run-monitor:
@@ -23,8 +23,7 @@ jobs:
 
       - name: Execute Monitor Script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: node index.js
-				
